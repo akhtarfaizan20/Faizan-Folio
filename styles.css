@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1&display=swap');
+
+:root {
+    --primary-color: #06b6d4;
+    --dark-grey: #64748b;
+    --off-white: #f1f5f9;
+
+
+}
+
+body {
+    font-family: 'M PLUS 1', sans-serif;
+    margin: 0px;
+}
+
+hr {
+    margin: 3rem 0rem;
+}
+/* container */
+.container {
+    padding: 0rem 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* links  */
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.primary-links {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+.secondary-links {
+    background-color: white;
+    color: var(--primary-color
+    );
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+/* lists  */
+.list{
+
+}
+.list-non-bullet {
+    list-style: none;
+}
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .nev-brand {
+    /* font-weight: bold; */
+    font-size: 1.2rem;
+}
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+.navigation .link-active {
+    font-weight: bolder;
+}
+
+/* header  */
+.hero {
+    padding: 2rem;
+}
+.hero .hero-image {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+} 
+.hero .hero-header {
+    padding-top: 1rem;
+    color: var(--dark-grey);
+    font-weight: bold;
+    text-align: center;
+}
+
+.hero .hero-header .header-highlighter{
+    color: var(--primary-color);
+}
+
+/* sections  */
+.section {
+    padding: 2rem;
+}
+.section h1 {
+    text-align: center;
+    
+}
+.ow {
+    background-color: var(--off-white);
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    border-top-right-radius: 1rem;
+
+}
+
+.footer .link{
+    color: white; 
+}
+
+.footer ul{
+    padding-inline-start: 0%;
+}
+
+
