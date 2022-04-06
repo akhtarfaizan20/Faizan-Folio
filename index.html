@@ -5,103 +5,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
-    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to faizan Akhtar's Library</h1>
-    <p>
-        I am attending neog.camp and I want to a library which would make all my project to look good.
-
-    </p>
+    <h1>Welcome to Faizan Akhtar's Library</h1>
+    <p>I am attending neog.camp and I want to create a library wich would make all my project look good.</p>
     <hr>
     <h2>@typography</h2>
     <h1>This is the biggest heading</h1>
     <h2>This is the second biggest heading</h2>
     <p>Let me show you the normal text. It is a normal paragraph and will wrap up automatically</p>
-    <small>This is the realatively smaller</small> 
-    <hr>   
-    <h2>@container</h2>
+    <small>This is relatively smaller.</small>
+    <hr>
+    <h2>@Container</h2>
     <h3>Fluid Container</h3>
-    <div class = "container-fluid">This is a fluid container and it will go till the end of the end of the page</div>
-    <h3>Center Container</h3>
-    <div class = "container container-center">This is a centered container and it will go till the specified width.</div>
+    <div class="container">This is a fluid container and it will go till the end of the page.</div>
+    <h3>Center container</h3>
+    <div class="container container-center">This is a centered container and it will go till the speciafied widht.</div>
     <hr>
     <h2>@links</h2>
-    <a class="link primary-links" href="https://google.com">Primary Link</a>
-    <a class="link secondary-links" href="https://google.com">Secondary Link</a>
-
+    <a class="link link-primary" href="/">Primary Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
     <hr>
     <h2>@list</h2>
     <h3>Unordered list</h3>
-    <p>this will not have the bullets </p>
-    <ul class="list-non-bullet">
-        <li>Item one</li>
-        <li>Item Two</li>
+    <ul class="list-no-bullet">
+        <li>Item One</li>
+        <li>Item two</li>
         <li>Item Three</li>
     </ul>
-    <h3>Unordered Inlinelist</h3>
-    <ul class="list-non-bullet">
-        <li class="list-item-inline">Item one</li>
-        <li class="list-item-inline">Item Two</li>
+    <h3>Unordered inline list</h3>
+    <ul class="list-no-bullet">
+        <li class="list-item-inline">Item One</li>
+        <li class="list-item-inline">Item two</li>
         <li class="list-item-inline">Item Three</li>
-        
     </ul>
     <h3>Reverse ordered list</h3>
     <ol reversed>
-        <li>Item one</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
+        <li>Item One</li>
+        <li>Item two</li>
         <li>Item Three</li>
     </ol>
-
     <hr>
-
     <h2>@nav</h2>
-    <nav class="navigation container" >
-        <div class="nev-brand">iAmBrand</div>
-        <ul class="list-non-bullet  nav-pills">
+    <header class="navigation">
+        <div class="brand">I am Brand</div>
+        <ul class="list-no-bullet nav-pills">
             <li class="list-item-inline">
-                <a class="link link-active" href="/">Home</a>
+                <a class="link" href="/">Home</a></li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Product</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">Products</a>
-            </li>
-            <li class="list-item-inline "> 
-                <a class="link  " href="/">About</a>
-            </li>
+                <a class="link" href="/">About</a></li>
         </ul>
-    </nav>
-    <hr>
-
-    <h2>@header</h2>
-
-    <header class="hero">
-        <img class="hero-image"
-        src="images/hero.svg">
-        <h1 class="hero-header">Faizan Akhtar the <span class="header-highlighter">Web Developer</span></h1>
     </header>
     <hr>
-    <h2>@sections</h2>
-    <h3>Fluid sections</h3>
-    <section class="section">
-        <div class="container center-container">
-            <h1>white sections</h1>
-            <p>This will have white backgroundThis will have white backgroundThis will have white backgroundThis will have white backgroundThis will have white background</p></div>
-        
-    </section>
-    <section class="section ow">
-        <div class="container center-container">
-            <h1>off white sections</h1>
-            <p>This will have offwhite backgroundThis will have offwhite backgroundThis will have offwhite backgroundThis will have offwhite backgroundThis will have offwhite backgroundThis will have offwhite backgroundThis will have offwhite backgroundThis will have offwhite backgroundThis will have offwhite background</p></div>
-    </section>
+    <h2>@header</h2>
+    <img class="hero-image" src="/Images/hero.svg" alt="">
+    <h1 class="hero-text">Faizan Akhtar the <span class="highlighted">Web Developer</span></h1>
     <hr>
+    <h2>sections</h2>
+    <h3>fluid sections</h3>
+    <section class="section ">
+        <h3>White section</h3>
+        <p>This will have white backgroundThis will have white backgroundThis will have white backgroundThis will have white backgroundThis will have white background</p>
+    </section>
+    <section class="section section-ow">
+        <h3>Off-White section</h3>
+        <p>This will have offwhite backgroundThis will have offwhite backgroundThis will have offwhite backgroundThis will have offwhite backgroundThis will have offwhite backgroundThis will have offwhite backgroundThis will have offwhite backgroundThis will have offwhite backgroundThis will have offwhite background</p>
+    </section>
+    <hr>\
     <h2>@footer</h2>
-    <footer class="footer ">
-        <div class="footer-heading">some random text here</div>
-        <ul class="social-links list-non-bullet" >
-            <li class="list-item-inline"><a class="link" href="/">socialOne</a></li>
-            <li class="list-item-inline"><a class="link" href="/">socilaTwo</a></li>
-            <li class="list-item-inline"><a class="link" href="/ ">socialThree</a></li>
+    <footer class="footer">
+        <div>Some Random Text</div>
+        <ul>
+            <li class="list-item-inline">
+                <a class="link" href="/">Social One</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Social Two</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Social Three</a>
+            </li>
         </ul>
     </footer>
 
