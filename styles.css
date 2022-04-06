@@ -56,10 +56,11 @@ ol {
 .navigation .brand {
     padding: 1rem;
     font-weight: bold;
-    font-size: 1.5rem;
+    color: white;
 }
 .navigation .link {
     color: white;
+    padding: 0.5rem 0.75rem;
 }
 .navigation .link-active{
     font-weight: bold;
