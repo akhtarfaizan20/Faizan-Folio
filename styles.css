@@ -19,6 +19,10 @@ hr {
 .container {
     padding: 0rem 1rem;
 }
+ol {
+    text-align: center;
+    
+}
 .container-center {
     text-align: center;
 }
