@@ -100,9 +100,12 @@ ol {
 }
 .footer .link {
     color: white;
-    padding: 0.5rem 0.75rem;
+    padding: 0.5rem 1rem;
 }
 .footer .footer-header {
     font-weight: bold;
     font-size: large;
+}
+.footer ul {
+    padding-inline-start: 0px;
 }
